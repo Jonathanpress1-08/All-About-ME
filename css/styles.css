@@ -1,0 +1,129 @@
+
+.font{font-family:
+ 'castoro titling', sans-serif;}
+
+.header {
+  background-color: black;
+}
+
+.body {
+  background-color: black;
+
+}
+
+.headerimg {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 600px; 
+  height: auto; 
+}
+
+
+.hi {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: 'bebas neue', sans-serif;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+
+.grid-item {
+   font-family: 'castoro titling', sans-serif;
+   border: 1px solid lightskyblue;
+  background-color: black;
+  padding: 20px;
+  color: whitesmoke;
+}
+
+.grid-item h2::first-letter {
+  color: lightskyblue;
+  font-size: 1.2em;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.grid-item h2::first-letter {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+
+.img {
+  width: 300px;
+  
+}
+
+.footer {
+  border: 1px solid lightskyblue;
+  padding: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  height: auto;
+  max-width: 100%;
+}
+
+.img:first-child {
+  margin-right: 20px;
+}
+
+.img:last-child {
+  width: 500px;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fade-in-animation 1s ease-in-out forwards;
+}
+
+@keyframes fade-in-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: lightskyblue;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: whitesmoke;
+}
