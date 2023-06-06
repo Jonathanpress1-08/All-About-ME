@@ -1,4 +1,5 @@
 
+
 .font{font-family:
  'castoro titling', sans-serif;}
 
@@ -127,3 +128,7 @@
 .button:hover {
   background-color: whitesmoke;
 }
+highlight {
+            color: red;
+            font-weight: bold;
+        }
